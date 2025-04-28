@@ -2,9 +2,10 @@
 
 Simulates a neuron cells build with go channels.
 
-![Neuron](https://cdn-prod.medicalnewstoday.com/content/images/articles/320/320289/neuron-diagram.jpg)
-  
-  //
+![Neuron](neuron-diagram.jpg)
+
+```
+  	//
 	//  created with http://asciiflow.com/
 	//
 	//  in           out
@@ -57,3 +58,4 @@ Simulates a neuron cells build with go channels.
 	//   | Emit_C o---+    +---B--( 3)> Cell_C o----> Display_C |
 	//   |        o------------C--(~3)>        |    +-----------+
 	//   +--------+                   +--------+
+```
